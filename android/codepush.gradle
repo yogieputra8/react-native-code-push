@@ -24,7 +24,7 @@ gradle.projectsEvaluated {
         it.resValue 'string', "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
     }
     
-    android.applicationVariants.all { variant ->
+    android.libraryVariants.all { variant ->
         def nodeModulesPath;
         if (config.root) {
             nodeModulesPath = Paths.get(config.root, "/node_modules");
