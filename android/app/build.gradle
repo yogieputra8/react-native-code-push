@@ -26,6 +26,6 @@ android {
 }
 
 dependencies {
-    implementation "com.facebook.react:react-native:+"
+    implementation "com.facebook.react:react-native:0.59.5@aar"
     implementation 'com.nimbusds:nimbus-jose-jwt:5.1'
 }
